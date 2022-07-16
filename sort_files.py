@@ -8,9 +8,13 @@ def rchop(s, suffix):
     return s
 
 base="/home/germain/backup"
+
+#to do: create from this script destination directories : base/html, base/latex, base/pdf
+
+wb_downloader_base="/home/germain/websites"
 nb_files={}
 
-for root, dirs, files in os.walk("/home/germain/websites"):
+for root, dirs, files in os.walk(wb_downloader_base):
     for file in files:
         if file.endswith(".html"):
 #            print(root, files)
