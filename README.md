@@ -6,5 +6,7 @@ wayback_machine_downloader http://www.cheatography.com --only "/\/cheat-sheets\/
 
 After you're done downloading, you can sort files with the python script.
 
-Don't forget to adjust the base directory and create the pdf, latex and html destination directory. 
+Don't forget to adjust the base directory and create the pdf, latex and html destination directory.  
+
+You need to set wb_downloader_base var too. this is where wayback_machine_downloader stored files
 
