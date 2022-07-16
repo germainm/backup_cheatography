@@ -1,7 +1,3 @@
-#wayback_machine_downloader https://www.cheatography.com --only "/(latex)\/$/i" -c 4
-#wayback_machine_downloader https://www.cheatography.com --only "/(pdf)\/$/i"
-
-#wayback_machine_downloader --only "/\/cheat-sheets\/[a-z0-9\-_]+\/$/i" -c 4 http://www.cheatography.com
 
 import os
 import shutil
